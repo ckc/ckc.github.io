@@ -10,8 +10,8 @@
     },
     "items": [
         {
-            "id": "https://ckc.github.io/hello-publii.html",
-            "url": "https://ckc.github.io/hello-publii.html",
+            "id": "https://ckc.github.io/hello-publii/",
+            "url": "https://ckc.github.io/hello-publii/",
             "title": "Hello Publii",
             "summary": "WYSIWYG reduce a pain point who unfamiliar in MD",
             "content_html": "<h3 class=\"LC20lb MBeuO DKV0Md\">WYSIWYG reduce a pain point who unfamiliar in MD</h3>",
@@ -22,6 +22,22 @@
             ],
             "date_published": "2022-05-15T11:28:04+08:00",
             "date_modified": "2022-05-15T11:28:04+08:00"
+        },
+        {
+            "id": "https://ckc.github.io/data-center-network-overview/",
+            "url": "https://ckc.github.io/data-center-network-overview/",
+            "title": "Data Center Network Overview",
+            "summary": "Border Layer DWDM (e.g. Ciena) | Router Agg-SW Access Switch (ToR)",
+            "content_html": "<h1>Border Layer</h1>\n<p>DWDM (e.g. Ciena)</p>\n<p>|</p>\n<p>Router</p>\n<h1>Aggregation Layer</h1>\n<p>Agg-SW</p>\n<h1>Access Layer</h1>\n<p>Access Switch (ToR)</p>",
+            "author": {
+                "name": "Jack Chan"
+            },
+            "tags": [
+                   "Networking",
+                   "Data Center"
+            ],
+            "date_published": "2018-07-15T12:01:00+08:00",
+            "date_modified": "2022-05-15T12:02:33+08:00"
         }
     ]
 }

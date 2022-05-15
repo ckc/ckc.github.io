@@ -3,7 +3,7 @@
     <title>Jack Chan&#x27;s Blog</title>
     <link href="https://ckc.github.io/feed.xml" rel="self" />
     <link href="https://ckc.github.io" />
-    <updated>2022-05-15T11:28:04+08:00</updated>
+    <updated>2022-05-15T12:02:33+08:00</updated>
     <author>
         <name>Jack Chan</name>
     </author>
@@ -14,8 +14,8 @@
         <author>
             <name>Jack Chan</name>
         </author>
-        <link href="https://ckc.github.io/hello-publii.html"/>
-        <id>https://ckc.github.io/hello-publii.html</id>
+        <link href="https://ckc.github.io/hello-publii/"/>
+        <id>https://ckc.github.io/hello-publii/</id>
 
         <updated>2022-05-15T11:28:04+08:00</updated>
             <summary>
@@ -26,6 +26,35 @@
         <content type="html">
             <![CDATA[
                 <h3 class="LC20lb MBeuO DKV0Md">WYSIWYG reduce a pain point who unfamiliar in MD</h3>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>Data Center Network Overview</title>
+        <author>
+            <name>Jack Chan</name>
+        </author>
+        <link href="https://ckc.github.io/data-center-network-overview/"/>
+        <id>https://ckc.github.io/data-center-network-overview/</id>
+            <category term="Networking"/>
+            <category term="Data Center"/>
+
+        <updated>2022-05-15T12:02:33+08:00</updated>
+            <summary>
+                <![CDATA[
+                    Border Layer DWDM (e.g. Ciena) | Router Agg-SW Access Switch (ToR)
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h1>Border Layer</h1>
+<p>DWDM (e.g. Ciena)</p>
+<p>|</p>
+<p>Router</p>
+<h1>Aggregation Layer</h1>
+<p>Agg-SW</p>
+<h1>Access Layer</h1>
+<p>Access Switch (ToR)</p>
             ]]>
         </content>
     </entry>
