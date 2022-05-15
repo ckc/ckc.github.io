@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+    <title>Jack Chan&#x27;s Blog</title>
+    <link href="https://ckc.github.io/ckc.github.io/feed.xml" rel="self" />
+    <link href="https://ckc.github.io/ckc.github.io" />
+    <updated>2022-05-15T11:28:04+08:00</updated>
+    <author>
+        <name>Jack Chan</name>
+    </author>
+    <id>https://ckc.github.io/ckc.github.io</id>
+
+    <entry>
+        <title>Hello Publii</title>
+        <author>
+            <name>Jack Chan</name>
+        </author>
+        <link href="https://ckc.github.io/ckc.github.io/hello-publii.html"/>
+        <id>https://ckc.github.io/ckc.github.io/hello-publii.html</id>
+
+        <updated>2022-05-15T11:28:04+08:00</updated>
+            <summary>
+                <![CDATA[
+                    WYSIWYG reduce a pain point who unfamiliar in MD
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h3 class="LC20lb MBeuO DKV0Md">WYSIWYG reduce a pain point who unfamiliar in MD</h3>
+            ]]>
+        </content>
+    </entry>
+</feed>
