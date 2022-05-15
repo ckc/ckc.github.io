@@ -2,16 +2,16 @@
     "version": "https://jsonfeed.org/version/1",
     "title": "Jack Chan&#x27;s Blog",
     "description": "",
-    "home_page_url": "https://ckc.github.io/ckc.github.io",
-    "feed_url": "https://ckc.github.io/ckc.github.io/feed.json",
+    "home_page_url": "https://ckc.github.io",
+    "feed_url": "https://ckc.github.io/feed.json",
     "user_comment": "",
     "author": {
         "name": "Jack Chan"
     },
     "items": [
         {
-            "id": "https://ckc.github.io/ckc.github.io/hello-publii.html",
-            "url": "https://ckc.github.io/ckc.github.io/hello-publii.html",
+            "id": "https://ckc.github.io/hello-publii.html",
+            "url": "https://ckc.github.io/hello-publii.html",
             "title": "Hello Publii",
             "summary": "WYSIWYG reduce a pain point who unfamiliar in MD",
             "content_html": "<h3 class=\"LC20lb MBeuO DKV0Md\">WYSIWYG reduce a pain point who unfamiliar in MD</h3>",

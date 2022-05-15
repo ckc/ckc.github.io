@@ -1,3 +1,3 @@
 User-agent: *
 Disallow:
-Sitemap: https://ckc.github.io/ckc.github.io/sitemap.xml
+Sitemap: https://ckc.github.io/sitemap.xml
