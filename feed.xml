@@ -3,12 +3,57 @@
     <title>Jack Chan&#x27;s Blog</title>
     <link href="https://ckc.github.io/feed.xml" rel="self" />
     <link href="https://ckc.github.io" />
-    <updated>2022-05-15T12:02:33+08:00</updated>
+    <updated>2022-06-02T13:23:16+08:00</updated>
     <author>
         <name>Jack Chan</name>
     </author>
     <id>https://ckc.github.io</id>
 
+    <entry>
+        <title>macOS basic software (For re-image)</title>
+        <author>
+            <name>Jack Chan</name>
+        </author>
+        <link href="https://ckc.github.io/macos-basic-software-for-re-image/"/>
+        <id>https://ckc.github.io/macos-basic-software-for-re-image/</id>
+            <category term="macOS"/>
+
+        <updated>2022-06-02T11:54:18+08:00</updated>
+            <summary>
+                <![CDATA[
+                    Type Compress / Decompress The Unarchiver Mac App Store | DMG
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h2 class="product-title h2"> </h2>
+<table style="border-collapse: collapse; width: 100%; height: 151.078px;" border="1">
+<tbody>
+<tr>
+<td style="width: 33.2843%;">Type</td>
+<td style="width: 33.2843%;"> </td>
+<td style="width: 33.2889%;"> </td>
+</tr>
+<tr style="height: 50.3594px;">
+<td style="width: 33.2843%; height: 50.3594px;">Compress / Decompress</td>
+<td style="width: 33.2843%; height: 50.3594px;">The Unarchiver</td>
+<td style="width: 33.2889%; height: 50.3594px;"><a href="#INTERNAL_LINK#/post/null" title="https://itunes.apple.com/us/app/the-unarchiver/id425424353?mt=12">Mac App Store</a> | <a href="#INTERNAL_LINK#/post/null" title="https://dl.devmate.com/com.macpaw.site.theunarchiver/TheUnarchiver.dmg">DMG</a></td>
+</tr>
+<tr style="height: 50.3594px;">
+<td style="width: 33.2843%; height: 50.3594px;"> </td>
+<td style="width: 33.2843%; height: 50.3594px;"> </td>
+<td style="width: 33.2889%; height: 50.3594px;"> </td>
+</tr>
+<tr style="height: 50.3594px;">
+<td style="width: 33.2843%; height: 50.3594px;"> </td>
+<td style="width: 33.2843%; height: 50.3594px;"> </td>
+<td style="width: 33.2889%; height: 50.3594px;"> </td>
+</tr>
+</tbody>
+</table>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Hello Publii</title>
         <author>
@@ -30,6 +75,147 @@
         </content>
     </entry>
     <entry>
+        <title>LXC container directory related</title>
+        <author>
+            <name>Jack Chan</name>
+        </author>
+        <link href="https://ckc.github.io/lxc-container-directory-related/"/>
+        <id>https://ckc.github.io/lxc-container-directory-related/</id>
+            <category term="Container"/>
+
+        <updated>2022-05-25T07:39:25+08:00</updated>
+            <summary>
+                <![CDATA[
+                    Default: /var/cache/lxc Ref: https://stackoverflow.com/questions/25286546/change-lxc-container-directory 
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Default: /var/cache/lxc</p>
+<ol>
+<li><code>lxc.lxcpath</code> in <code>/etc/lxc/lxc.conf</code>, consult <code>man lxc.system.conf</code> for details.</li>
+<li><code>lxc-*</code> tools accepts <code>-P</code> flag to specify alternate container path.</li>
+<li><code>lxc-create</code> <code>-B dir</code> backing store has optional <code>--dir ROOTFS</code> flag.</li>
+</ol>
+<p> </p>
+<p>Ref: <a href="https://stackoverflow.com/questions/25286546/change-lxc-container-directory">https://stackoverflow.com/questions/25286546/change-lxc-container-directory</a> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>OS level Security</title>
+        <author>
+            <name>Jack Chan</name>
+        </author>
+        <link href="https://ckc.github.io/os-level-security/"/>
+        <id>https://ckc.github.io/os-level-security/</id>
+            <category term="Security"/>
+
+        <updated>2022-06-02T13:23:16+08:00</updated>
+            <summary>
+                <![CDATA[
+                    Check ports on/off e.g. Network Utilities Bundle
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Check ports on/off</p>
+<p>e.g. <a href="https://portforward.com/software/download-instructions/network-utilities/">Network Utilities Bundle</a></p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>MariaDB Clustering related</title>
+        <author>
+            <name>Jack Chan</name>
+        </author>
+        <link href="https://ckc.github.io/mariadb-clustering-related/"/>
+        <id>https://ckc.github.io/mariadb-clustering-related/</id>
+            <category term="MySQL"/>
+            <category term="MariaDB"/>
+
+        <updated>2022-06-02T13:21:11+08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://ckc.github.io/media/posts/5/mariadb-galera-cluster-1024x545.png" alt="" />
+                    1. Linux OS level pre-config sudo vim /etc/hosts 10.0.1.102 mariadb-node1.ckc.im mariadb-node1 10.0.1.103 mariadb-node2.ckc.im mariadb-node2 10.0.1.204 mariadb-node3.ckc.im mariadb-node3 config A record set correct target DNS for each node sudo apt update sudo apt -y install mariadb-server mariadb-client sudo mysql_secure_installation mariadb-node1 sudo vim /etc/mysql/mariadb.conf.d/50-server.cnf mariadb-node2 sudo vim&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://ckc.github.io/media/posts/5/mariadb-galera-cluster-1024x545.png" alt="" />
+                <p><img loading="lazy" src="https://computingforgeeks.com/wp-content/uploads/2021/04/mariadb-galera-cluster-1024x545.png?ezimgfmt=rs:696x370/rscb23/ng:webp/ngcb23" data-is-external-image="true"  alt="mariadb galera cluster"></p>
+<table style="width: 100%; height: 201.438px;">
+<tbody>
+<tr style="height: 50.3594px;">
+<td style="width: 24.1541%; height: 50.3594px;"><strong>Server</strong></td>
+<td style="width: 41.611%; height: 50.3594px;"><strong>Hostname</strong></td>
+<td style="width: 34.0923%; height: 50.3594px;"><strong>IP Address</strong></td>
+</tr>
+<tr style="height: 50.3594px;">
+<td style="width: 24.1541%; height: 50.3594px;">DB 1</td>
+<td style="width: 41.611%; height: 50.3594px;">mariadb-node1</td>
+<td style="width: 34.0923%; height: 50.3594px;">10.0.1.102</td>
+</tr>
+<tr style="height: 50.3594px;">
+<td style="width: 24.1541%; height: 50.3594px;">DB 2</td>
+<td style="width: 41.611%; height: 50.3594px;">mariadb-node2</td>
+<td style="width: 34.0923%; height: 50.3594px;">10.0.1.103</td>
+</tr>
+<tr style="height: 50.3594px;">
+<td style="width: 24.1541%; height: 50.3594px;">DB 3</td>
+<td style="width: 41.611%; height: 50.3594px;">mariadb-node3</td>
+<td style="width: 34.0923%; height: 50.3594px;">10.0.1.104</td>
+</tr>
+</tbody>
+</table>
+<p>1. Linux OS level pre-config</p>
+<table style="border-collapse: collapse; width: 148.575%;" border="1">
+<tbody>
+<tr>
+<td style="width: 44.3385%;">Without DNS</td>
+<td style="width: 55.5671%;">With DNS</td>
+</tr>
+<tr>
+<td style="width: 44.3385%;">
+<p>sudo vim /etc/hosts</p>
+<p>10.0.1.102 mariadb-node1.ckc.im mariadb-node1 10.0.1.103 mariadb-node2.ckc.im mariadb-node2 10.0.1.204 mariadb-node3.ckc.im mariadb-node3</p>
+</td>
+<td style="width: 55.5671%;">
+<p>config A record</p>
+<p>set correct target DNS for each node</p>
+</td>
+</tr>
+</tbody>
+</table>
+<p>sudo apt update sudo apt -y install mariadb-server mariadb-client</p>
+<p> </p>
+<p>sudo mysql_secure_installation</p>
+<p> </p>
+<p>mariadb-node1</p>
+<p>sudo vim /etc/mysql/mariadb.conf.d/50-server.cnf</p>
+<p> </p>
+<p>mariadb-node2</p>
+<p>sudo vim /etc/mysql/mariadb.conf.d/50-server.cnf</p>
+<p> </p>
+<p> </p>
+<pre class="wp-block-code"><code>systemctl restart mariadb</code></pre>
+<p> </p>
+<p> </p>
+<h3>Validate</h3>
+<p>mysql -u root -p</p>
+<p> </p>
+<p>show status like 'wsrep_%'; </p>
+<p>&gt; </p>
+<pre class="wp-block-code"><code>wsrep_cluster_size    3</code></pre>
+<p> </p>
+<p> </p>
+<p>Reference:</p>
+<p><a href="https://computingforgeeks.com/install-mariadb-galera-cluster-on-ubuntu-with-proxysql/">https://computingforgeeks.com/install-mariadb-galera-cluster-on-ubuntu-with-proxysql/</a> </p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
         <title>Data Center Network Overview</title>
         <author>
             <name>Jack Chan</name>
@@ -39,15 +225,15 @@
             <category term="Networking"/>
             <category term="Data Center"/>
 
-        <updated>2022-05-15T12:02:33+08:00</updated>
+        <updated>2022-05-31T09:09:22+08:00</updated>
             <summary>
                 <![CDATA[
-                    Border Layer DWDM (e.g. Ciena) | Router Agg-SW Access Switch (ToR)
+                    Border / Edge Layer DWDM (e.g. Ciena) | Router Agg-SW Access Switch (ToR)
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                <h1>Border Layer</h1>
+                <h1>Border / Edge Layer</h1>
 <p>DWDM (e.g. Ciena)</p>
 <p>|</p>
 <p>Router</p>

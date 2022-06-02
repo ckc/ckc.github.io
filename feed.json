@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://ckc.github.io/macos-basic-software-for-re-image/",
+            "url": "https://ckc.github.io/macos-basic-software-for-re-image/",
+            "title": "macOS basic software (For re-image)",
+            "summary": "Type Compress / Decompress The Unarchiver Mac App Store | DMG",
+            "content_html": "<h2 class=\"product-title h2\"> </h2>\n<table style=\"border-collapse: collapse; width: 100%; height: 151.078px;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 33.2843%;\">Type</td>\n<td style=\"width: 33.2843%;\"> </td>\n<td style=\"width: 33.2889%;\"> </td>\n</tr>\n<tr style=\"height: 50.3594px;\">\n<td style=\"width: 33.2843%; height: 50.3594px;\">Compress / Decompress</td>\n<td style=\"width: 33.2843%; height: 50.3594px;\">The Unarchiver</td>\n<td style=\"width: 33.2889%; height: 50.3594px;\"><a href=\"#INTERNAL_LINK#/post/null\" title=\"https://itunes.apple.com/us/app/the-unarchiver/id425424353?mt=12\">Mac App Store</a> | <a href=\"#INTERNAL_LINK#/post/null\" title=\"https://dl.devmate.com/com.macpaw.site.theunarchiver/TheUnarchiver.dmg\">DMG</a></td>\n</tr>\n<tr style=\"height: 50.3594px;\">\n<td style=\"width: 33.2843%; height: 50.3594px;\"> </td>\n<td style=\"width: 33.2843%; height: 50.3594px;\"> </td>\n<td style=\"width: 33.2889%; height: 50.3594px;\"> </td>\n</tr>\n<tr style=\"height: 50.3594px;\">\n<td style=\"width: 33.2843%; height: 50.3594px;\"> </td>\n<td style=\"width: 33.2843%; height: 50.3594px;\"> </td>\n<td style=\"width: 33.2889%; height: 50.3594px;\"> </td>\n</tr>\n</tbody>\n</table>",
+            "author": {
+                "name": "Jack Chan"
+            },
+            "tags": [
+                   "macOS"
+            ],
+            "date_published": "2022-06-02T11:54:18+08:00",
+            "date_modified": "2022-06-02T11:54:18+08:00"
+        },
+        {
             "id": "https://ckc.github.io/hello-publii/",
             "url": "https://ckc.github.io/hello-publii/",
             "title": "Hello Publii",
@@ -24,11 +39,58 @@
             "date_modified": "2022-05-15T11:28:04+08:00"
         },
         {
+            "id": "https://ckc.github.io/lxc-container-directory-related/",
+            "url": "https://ckc.github.io/lxc-container-directory-related/",
+            "title": "LXC container directory related",
+            "summary": "Default: /var/cache/lxc Ref: https://stackoverflow.com/questions/25286546/change-lxc-container-directory ",
+            "content_html": "<p>Default: /var/cache/lxc</p>\n<ol>\n<li><code>lxc.lxcpath</code> in <code>/etc/lxc/lxc.conf</code>, consult <code>man lxc.system.conf</code> for details.</li>\n<li><code>lxc-*</code> tools accepts <code>-P</code> flag to specify alternate container path.</li>\n<li><code>lxc-create</code> <code>-B dir</code> backing store has optional <code>--dir ROOTFS</code> flag.</li>\n</ol>\n<p> </p>\n<p>Ref: <a href=\"https://stackoverflow.com/questions/25286546/change-lxc-container-directory\">https://stackoverflow.com/questions/25286546/change-lxc-container-directory</a> </p>",
+            "author": {
+                "name": "Jack Chan"
+            },
+            "tags": [
+                   "Container"
+            ],
+            "date_published": "2021-05-25T07:38:00+08:00",
+            "date_modified": "2022-05-25T07:39:25+08:00"
+        },
+        {
+            "id": "https://ckc.github.io/os-level-security/",
+            "url": "https://ckc.github.io/os-level-security/",
+            "title": "OS level Security",
+            "summary": "Check ports on/off e.g. Network Utilities Bundle",
+            "content_html": "<p>Check ports on/off</p>\n<p>e.g. <a href=\"https://portforward.com/software/download-instructions/network-utilities/\">Network Utilities Bundle</a></p>",
+            "author": {
+                "name": "Jack Chan"
+            },
+            "tags": [
+                   "Security"
+            ],
+            "date_published": "2020-06-02T13:23:00+08:00",
+            "date_modified": "2022-06-02T13:23:16+08:00"
+        },
+        {
+            "id": "https://ckc.github.io/mariadb-clustering-related/",
+            "url": "https://ckc.github.io/mariadb-clustering-related/",
+            "title": "MariaDB Clustering related",
+            "summary": "1. Linux OS level pre-config sudo vim /etc/hosts 10.0.1.102 mariadb-node1.ckc.im mariadb-node1 10.0.1.103 mariadb-node2.ckc.im mariadb-node2 10.0.1.204 mariadb-node3.ckc.im mariadb-node3 config A record set correct target DNS for each node sudo apt update sudo apt -y install mariadb-server mariadb-client sudo mysql_secure_installation mariadb-node1 sudo vim /etc/mysql/mariadb.conf.d/50-server.cnf mariadb-node2 sudo vim&hellip;",
+            "content_html": "<p><img loading=\"lazy\" src=\"https://computingforgeeks.com/wp-content/uploads/2021/04/mariadb-galera-cluster-1024x545.png?ezimgfmt=rs:696x370/rscb23/ng:webp/ngcb23\" data-is-external-image=\"true\"  alt=\"mariadb galera cluster\"></p>\n<table style=\"width: 100%; height: 201.438px;\">\n<tbody>\n<tr style=\"height: 50.3594px;\">\n<td style=\"width: 24.1541%; height: 50.3594px;\"><strong>Server</strong></td>\n<td style=\"width: 41.611%; height: 50.3594px;\"><strong>Hostname</strong></td>\n<td style=\"width: 34.0923%; height: 50.3594px;\"><strong>IP Address</strong></td>\n</tr>\n<tr style=\"height: 50.3594px;\">\n<td style=\"width: 24.1541%; height: 50.3594px;\">DB 1</td>\n<td style=\"width: 41.611%; height: 50.3594px;\">mariadb-node1</td>\n<td style=\"width: 34.0923%; height: 50.3594px;\">10.0.1.102</td>\n</tr>\n<tr style=\"height: 50.3594px;\">\n<td style=\"width: 24.1541%; height: 50.3594px;\">DB 2</td>\n<td style=\"width: 41.611%; height: 50.3594px;\">mariadb-node2</td>\n<td style=\"width: 34.0923%; height: 50.3594px;\">10.0.1.103</td>\n</tr>\n<tr style=\"height: 50.3594px;\">\n<td style=\"width: 24.1541%; height: 50.3594px;\">DB 3</td>\n<td style=\"width: 41.611%; height: 50.3594px;\">mariadb-node3</td>\n<td style=\"width: 34.0923%; height: 50.3594px;\">10.0.1.104</td>\n</tr>\n</tbody>\n</table>\n<p>1. Linux OS level pre-config</p>\n<table style=\"border-collapse: collapse; width: 148.575%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 44.3385%;\">Without DNS</td>\n<td style=\"width: 55.5671%;\">With DNS</td>\n</tr>\n<tr>\n<td style=\"width: 44.3385%;\">\n<p>sudo vim /etc/hosts</p>\n<p>10.0.1.102 mariadb-node1.ckc.im mariadb-node1 10.0.1.103 mariadb-node2.ckc.im mariadb-node2 10.0.1.204 mariadb-node3.ckc.im mariadb-node3</p>\n</td>\n<td style=\"width: 55.5671%;\">\n<p>config A record</p>\n<p>set correct target DNS for each node</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>sudo apt update sudo apt -y install mariadb-server mariadb-client</p>\n<p> </p>\n<p>sudo mysql_secure_installation</p>\n<p> </p>\n<p>mariadb-node1</p>\n<p>sudo vim /etc/mysql/mariadb.conf.d/50-server.cnf</p>\n<p> </p>\n<p>mariadb-node2</p>\n<p>sudo vim /etc/mysql/mariadb.conf.d/50-server.cnf</p>\n<p> </p>\n<p> </p>\n<pre class=\"wp-block-code\"><code>systemctl restart mariadb</code></pre>\n<p> </p>\n<p> </p>\n<h3>Validate</h3>\n<p>mysql -u root -p</p>\n<p> </p>\n<p>show status like 'wsrep_%'; </p>\n<p>&gt; </p>\n<pre class=\"wp-block-code\"><code>wsrep_cluster_size    3</code></pre>\n<p> </p>\n<p> </p>\n<p>Reference:</p>\n<p><a href=\"https://computingforgeeks.com/install-mariadb-galera-cluster-on-ubuntu-with-proxysql/\">https://computingforgeeks.com/install-mariadb-galera-cluster-on-ubuntu-with-proxysql/</a> </p>",
+            "image": "https://ckc.github.io/media/posts/5/mariadb-galera-cluster-1024x545.png",
+            "author": {
+                "name": "Jack Chan"
+            },
+            "tags": [
+                   "MySQL",
+                   "MariaDB"
+            ],
+            "date_published": "2019-06-02T13:19:00+08:00",
+            "date_modified": "2022-06-02T13:21:11+08:00"
+        },
+        {
             "id": "https://ckc.github.io/data-center-network-overview/",
             "url": "https://ckc.github.io/data-center-network-overview/",
             "title": "Data Center Network Overview",
-            "summary": "Border Layer DWDM (e.g. Ciena) | Router Agg-SW Access Switch (ToR)",
-            "content_html": "<h1>Border Layer</h1>\n<p>DWDM (e.g. Ciena)</p>\n<p>|</p>\n<p>Router</p>\n<h1>Aggregation Layer</h1>\n<p>Agg-SW</p>\n<h1>Access Layer</h1>\n<p>Access Switch (ToR)</p>",
+            "summary": "Border / Edge Layer DWDM (e.g. Ciena) | Router Agg-SW Access Switch (ToR)",
+            "content_html": "<h1>Border / Edge Layer</h1>\n<p>DWDM (e.g. Ciena)</p>\n<p>|</p>\n<p>Router</p>\n<h1>Aggregation Layer</h1>\n<p>Agg-SW</p>\n<h1>Access Layer</h1>\n<p>Access Switch (ToR)</p>",
             "author": {
                 "name": "Jack Chan"
             },
@@ -37,7 +99,7 @@
                    "Data Center"
             ],
             "date_published": "2018-07-15T12:01:00+08:00",
-            "date_modified": "2022-05-15T12:02:33+08:00"
+            "date_modified": "2022-05-31T09:09:22+08:00"
         }
     ]
 }
