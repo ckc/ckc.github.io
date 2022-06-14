@@ -3,12 +3,109 @@
     <title>Jack Chan&#x27;s Blog</title>
     <link href="https://ckc.github.io/feed.xml" rel="self" />
     <link href="https://ckc.github.io" />
-    <updated>2022-06-05T12:22:52+08:00</updated>
+    <updated>2022-06-15T00:10:07+08:00</updated>
     <author>
         <name>Jack Chan</name>
     </author>
     <id>https://ckc.github.io</id>
 
+    <entry>
+        <title>NetOps Admin tools</title>
+        <author>
+            <name>Jack Chan</name>
+        </author>
+        <link href="https://ckc.github.io/netops-admin-tools/"/>
+        <id>https://ckc.github.io/netops-admin-tools/</id>
+            <category term="macOS"/>
+            <category term="Networking"/>
+
+        <updated>2022-06-15T00:10:07+08:00</updated>
+            <summary>
+                <![CDATA[
+                        <img src="https://ckc.github.io/media/posts/14/WeChat0bb2155b6eb56f1e5dbb60cd336842c7.png" alt="" />
+                    Mac: /System/Library/CoreServices/Applications Network Utility.app - Netstat - Ping - Lookup - Traceroute - Whois - Finger (not used yet) - Port Scan
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                    <img src="https://ckc.github.io/media/posts/14/WeChat0bb2155b6eb56f1e5dbb60cd336842c7.png" alt="" />
+                <p>Mac:</p>
+<p>/System/Library/CoreServices/Applications</p>
+<p>Network Utility.app</p>
+<p>- Netstat </p>
+<p>- Ping</p>
+<p>- Lookup</p>
+<p>- Traceroute</p>
+<p>- Whois</p>
+<p>- Finger (not used yet)</p>
+<p>- Port Scan</p>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>SSD models</title>
+        <author>
+            <name>Jack Chan</name>
+        </author>
+        <link href="https://ckc.github.io/ssd-models/"/>
+        <id>https://ckc.github.io/ssd-models/</id>
+
+        <updated>2022-06-15T00:07:41+08:00</updated>
+            <summary>
+                <![CDATA[
+                    https://www.newegg.com/global/hk-en/samsung-sm863a-1-92tb/p/1Z4-000R-000M4
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p class="p1"> </p>
+<table style="border-collapse: collapse; width: 100%;" border="1">
+<tbody>
+<tr>
+<td style="width: 17.8317%;"> </td>
+<td style="width: 13.2668%;">Size</td>
+<td style="width: 20.3994%;">Model</td>
+<td style="width: 48.5021%;"> </td>
+</tr>
+<tr>
+<td style="width: 17.8317%;"><strong>SAMSUNG</strong></td>
+<td style="width: 13.2668%;"><strong>1.92TB</strong></td>
+<td style="width: 20.3994%;"><strong>SM863a MZ-7KM1T9NE 2.5" SATA III V-NAND Enterprise Solid State Disk</strong></td>
+<td style="width: 48.5021%;">
+<p class="p1"><a href="https://www.newegg.com/global/hk-en/samsung-sm863a-1-92tb/p/1Z4-000R-000M4"><strong>https://www.newegg.com/global/hk-en/samsung-sm863a-1-92tb/p/1Z4-000R-000M4</strong></a></p>
+</td>
+</tr>
+</tbody>
+</table>
+            ]]>
+        </content>
+    </entry>
+    <entry>
+        <title>IP Cam selection</title>
+        <author>
+            <name>Jack Chan</name>
+        </author>
+        <link href="https://ckc.github.io/ip-selection/"/>
+        <id>https://ckc.github.io/ip-selection/</id>
+
+        <updated>2022-06-07T10:01:53+08:00</updated>
+            <summary>
+                <![CDATA[
+                    Protocol: ONVIF (For Integrate in one like ZoneMinder) PTZ Sample: RLC-423 (Refurbished) - 5MP High-Speed PTZ Camera with 4X Optical Zoom RLC-520 - 5MP Security IP Camera with Easy PoE Connection
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Protocol: ONVIF (For Integrate in one like ZoneMinder)</p>
+<p>PTZ</p>
+<p> </p>
+<p>Sample:</p>
+<p><a href="https://reolink.com/__/product/rlc-423/">RLC-423 (Refurbished) - 5MP High-Speed PTZ Camera with 4X Optical Zoom</a></p>
+<p class="reo-productName"><a href="https://reolink.com/product/rlc-520/#specifications">RLC-520 - 5MP Security IP Camera with Easy PoE Connection</a></p>
+<p> </p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>US Visa (Avoiding travel through the United States)</title>
         <author>
@@ -289,158 +386,6 @@
 <p class="p5"> </p>
 <p class="p4"><strong>Building fault-tolerant applications on AWS</strong></p>
 <p class="p1"><a href="http://muratbuffalo.blogspot.com/2012/10/building-fault-tolerant-applications-on.html">http://muratbuffalo.blogspot.com/2012/10/building-fault-tolerant-applications-on.html</a></p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>MariaDB Clustering related</title>
-        <author>
-            <name>Jack Chan</name>
-        </author>
-        <link href="https://ckc.github.io/mariadb-clustering-related/"/>
-        <id>https://ckc.github.io/mariadb-clustering-related/</id>
-            <category term="MySQL"/>
-            <category term="MariaDB"/>
-
-        <updated>2022-06-02T13:21:11+08:00</updated>
-            <summary>
-                <![CDATA[
-                        <img src="https://ckc.github.io/media/posts/5/mariadb-galera-cluster-1024x545.png" alt="" />
-                    1. Linux OS level pre-config sudo vim /etc/hosts 10.0.1.102 mariadb-node1.ckc.im mariadb-node1 10.0.1.103 mariadb-node2.ckc.im mariadb-node2 10.0.1.204 mariadb-node3.ckc.im mariadb-node3 config A record set correct target DNS for each node sudo apt update sudo apt -y install mariadb-server mariadb-client sudo mysql_secure_installation mariadb-node1 sudo vim /etc/mysql/mariadb.conf.d/50-server.cnf mariadb-node2 sudo vim&hellip;
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                    <img src="https://ckc.github.io/media/posts/5/mariadb-galera-cluster-1024x545.png" alt="" />
-                <p><img loading="lazy" src="https://computingforgeeks.com/wp-content/uploads/2021/04/mariadb-galera-cluster-1024x545.png?ezimgfmt=rs:696x370/rscb23/ng:webp/ngcb23" data-is-external-image="true"  alt="mariadb galera cluster"></p>
-<table style="width: 100%; height: 201.438px;">
-<tbody>
-<tr style="height: 50.3594px;">
-<td style="width: 24.1541%; height: 50.3594px;"><strong>Server</strong></td>
-<td style="width: 41.611%; height: 50.3594px;"><strong>Hostname</strong></td>
-<td style="width: 34.0923%; height: 50.3594px;"><strong>IP Address</strong></td>
-</tr>
-<tr style="height: 50.3594px;">
-<td style="width: 24.1541%; height: 50.3594px;">DB 1</td>
-<td style="width: 41.611%; height: 50.3594px;">mariadb-node1</td>
-<td style="width: 34.0923%; height: 50.3594px;">10.0.1.102</td>
-</tr>
-<tr style="height: 50.3594px;">
-<td style="width: 24.1541%; height: 50.3594px;">DB 2</td>
-<td style="width: 41.611%; height: 50.3594px;">mariadb-node2</td>
-<td style="width: 34.0923%; height: 50.3594px;">10.0.1.103</td>
-</tr>
-<tr style="height: 50.3594px;">
-<td style="width: 24.1541%; height: 50.3594px;">DB 3</td>
-<td style="width: 41.611%; height: 50.3594px;">mariadb-node3</td>
-<td style="width: 34.0923%; height: 50.3594px;">10.0.1.104</td>
-</tr>
-</tbody>
-</table>
-<p>1. Linux OS level pre-config</p>
-<table style="border-collapse: collapse; width: 148.575%;" border="1">
-<tbody>
-<tr>
-<td style="width: 44.3385%;">Without DNS</td>
-<td style="width: 55.5671%;">With DNS</td>
-</tr>
-<tr>
-<td style="width: 44.3385%;">
-<p>sudo vim /etc/hosts</p>
-<p>10.0.1.102 mariadb-node1.ckc.im mariadb-node1 10.0.1.103 mariadb-node2.ckc.im mariadb-node2 10.0.1.204 mariadb-node3.ckc.im mariadb-node3</p>
-</td>
-<td style="width: 55.5671%;">
-<p>config A record</p>
-<p>set correct target DNS for each node</p>
-</td>
-</tr>
-</tbody>
-</table>
-<p>sudo apt update sudo apt -y install mariadb-server mariadb-client</p>
-<p> </p>
-<p>sudo mysql_secure_installation</p>
-<p> </p>
-<p>mariadb-node1</p>
-<p>sudo vim /etc/mysql/mariadb.conf.d/50-server.cnf</p>
-<p> </p>
-<p>mariadb-node2</p>
-<p>sudo vim /etc/mysql/mariadb.conf.d/50-server.cnf</p>
-<p> </p>
-<p> </p>
-<pre class="wp-block-code"><code>systemctl restart mariadb</code></pre>
-<p> </p>
-<p> </p>
-<h3>Validate</h3>
-<p>mysql -u root -p</p>
-<p> </p>
-<p>show status like 'wsrep_%'; </p>
-<p>&gt; </p>
-<pre class="wp-block-code"><code>wsrep_cluster_size    3</code></pre>
-<p> </p>
-<p> </p>
-<p>Reference:</p>
-<p><a href="https://computingforgeeks.com/install-mariadb-galera-cluster-on-ubuntu-with-proxysql/">https://computingforgeeks.com/install-mariadb-galera-cluster-on-ubuntu-with-proxysql/</a> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Data Center Automation</title>
-        <author>
-            <name>Jack Chan</name>
-        </author>
-        <link href="https://ckc.github.io/data-center-automation/"/>
-        <id>https://ckc.github.io/data-center-automation/</id>
-            <category term="Data Center"/>
-
-        <updated>2022-06-02T13:32:17+08:00</updated>
-            <summary>
-                <![CDATA[
-                    There two important parts for DCA: 1. Network Automate 2. Server (Metal) Automate
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>There two important parts for DCA:</p>
-<p>1. Network Automate</p>
-<ul>
-<li>Switch build</li>
-<li>Traffic shift away</li>
-</ul>
-<p>2. Server (Metal) Automate</p>
-<ul>
-<li>OS installation</li>
-</ul>
-<p> </p>
-<p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>Data Center Network Overview</title>
-        <author>
-            <name>Jack Chan</name>
-        </author>
-        <link href="https://ckc.github.io/data-center-network-overview/"/>
-        <id>https://ckc.github.io/data-center-network-overview/</id>
-            <category term="Networking"/>
-            <category term="Data Center"/>
-
-        <updated>2022-05-31T09:09:22+08:00</updated>
-            <summary>
-                <![CDATA[
-                    Border / Edge Layer DWDM (e.g. Ciena) | Router Agg-SW Access Switch (ToR)
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <h1>Border / Edge Layer</h1>
-<p>DWDM (e.g. Ciena)</p>
-<p>|</p>
-<p>Router</p>
-<h1>Aggregation Layer</h1>
-<p>Agg-SW</p>
-<h1>Access Layer</h1>
-<p>Access Switch (ToR)</p>
             ]]>
         </content>
     </entry>

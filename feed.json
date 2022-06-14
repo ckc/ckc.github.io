@@ -10,6 +10,51 @@
     },
     "items": [
         {
+            "id": "https://ckc.github.io/netops-admin-tools/",
+            "url": "https://ckc.github.io/netops-admin-tools/",
+            "title": "NetOps Admin tools",
+            "summary": "Mac: /System/Library/CoreServices/Applications Network Utility.app - Netstat - Ping - Lookup - Traceroute - Whois - Finger (not used yet) - Port Scan",
+            "content_html": "<p>Mac:</p>\n<p>/System/Library/CoreServices/Applications</p>\n<p>Network Utility.app</p>\n<p>- Netstat </p>\n<p>- Ping</p>\n<p>- Lookup</p>\n<p>- Traceroute</p>\n<p>- Whois</p>\n<p>- Finger (not used yet)</p>\n<p>- Port Scan</p>",
+            "image": "https://ckc.github.io/media/posts/14/WeChat0bb2155b6eb56f1e5dbb60cd336842c7.png",
+            "author": {
+                "name": "Jack Chan"
+            },
+            "tags": [
+                   "macOS",
+                   "Networking"
+            ],
+            "date_published": "2022-06-15T00:10:07+08:00",
+            "date_modified": "2022-06-15T00:10:07+08:00"
+        },
+        {
+            "id": "https://ckc.github.io/ssd-models/",
+            "url": "https://ckc.github.io/ssd-models/",
+            "title": "SSD models",
+            "summary": "https://www.newegg.com/global/hk-en/samsung-sm863a-1-92tb/p/1Z4-000R-000M4",
+            "content_html": "<p class=\"p1\"> </p>\n<table style=\"border-collapse: collapse; width: 100%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 17.8317%;\"> </td>\n<td style=\"width: 13.2668%;\">Size</td>\n<td style=\"width: 20.3994%;\">Model</td>\n<td style=\"width: 48.5021%;\"> </td>\n</tr>\n<tr>\n<td style=\"width: 17.8317%;\"><strong>SAMSUNG</strong></td>\n<td style=\"width: 13.2668%;\"><strong>1.92TB</strong></td>\n<td style=\"width: 20.3994%;\"><strong>SM863a MZ-7KM1T9NE 2.5\" SATA III V-NAND Enterprise Solid State Disk</strong></td>\n<td style=\"width: 48.5021%;\">\n<p class=\"p1\"><a href=\"https://www.newegg.com/global/hk-en/samsung-sm863a-1-92tb/p/1Z4-000R-000M4\"><strong>https://www.newegg.com/global/hk-en/samsung-sm863a-1-92tb/p/1Z4-000R-000M4</strong></a></p>\n</td>\n</tr>\n</tbody>\n</table>",
+            "author": {
+                "name": "Jack Chan"
+            },
+            "tags": [
+            ],
+            "date_published": "2022-06-15T00:07:41+08:00",
+            "date_modified": "2022-06-15T00:07:41+08:00"
+        },
+        {
+            "id": "https://ckc.github.io/ip-selection/",
+            "url": "https://ckc.github.io/ip-selection/",
+            "title": "IP Cam selection",
+            "summary": "Protocol: ONVIF (For Integrate in one like ZoneMinder) PTZ Sample: RLC-423 (Refurbished) - 5MP High-Speed PTZ Camera with 4X Optical Zoom RLC-520 - 5MP Security IP Camera with Easy PoE Connection",
+            "content_html": "<p>Protocol: ONVIF (For Integrate in one like ZoneMinder)</p>\n<p>PTZ</p>\n<p> </p>\n<p>Sample:</p>\n<p><a href=\"https://reolink.com/__/product/rlc-423/\">RLC-423 (Refurbished) - 5MP High-Speed PTZ Camera with 4X Optical Zoom</a></p>\n<p class=\"reo-productName\"><a href=\"https://reolink.com/product/rlc-520/#specifications\">RLC-520 - 5MP Security IP Camera with Easy PoE Connection</a></p>\n<p> </p>",
+            "author": {
+                "name": "Jack Chan"
+            },
+            "tags": [
+            ],
+            "date_published": "2022-06-07T09:39:46+08:00",
+            "date_modified": "2022-06-07T10:01:53+08:00"
+        },
+        {
             "id": "https://ckc.github.io/us-visa-avoiding-travel-through-the-united-states/",
             "url": "https://ckc.github.io/us-visa-avoiding-travel-through-the-united-states/",
             "title": "US Visa (Avoiding travel through the United States)",
@@ -111,54 +156,6 @@
             ],
             "date_published": "2019-06-02T13:35:00+08:00",
             "date_modified": "2022-06-02T13:36:57+08:00"
-        },
-        {
-            "id": "https://ckc.github.io/mariadb-clustering-related/",
-            "url": "https://ckc.github.io/mariadb-clustering-related/",
-            "title": "MariaDB Clustering related",
-            "summary": "1. Linux OS level pre-config sudo vim /etc/hosts 10.0.1.102 mariadb-node1.ckc.im mariadb-node1 10.0.1.103 mariadb-node2.ckc.im mariadb-node2 10.0.1.204 mariadb-node3.ckc.im mariadb-node3 config A record set correct target DNS for each node sudo apt update sudo apt -y install mariadb-server mariadb-client sudo mysql_secure_installation mariadb-node1 sudo vim /etc/mysql/mariadb.conf.d/50-server.cnf mariadb-node2 sudo vim&hellip;",
-            "content_html": "<p><img loading=\"lazy\" src=\"https://computingforgeeks.com/wp-content/uploads/2021/04/mariadb-galera-cluster-1024x545.png?ezimgfmt=rs:696x370/rscb23/ng:webp/ngcb23\" data-is-external-image=\"true\"  alt=\"mariadb galera cluster\"></p>\n<table style=\"width: 100%; height: 201.438px;\">\n<tbody>\n<tr style=\"height: 50.3594px;\">\n<td style=\"width: 24.1541%; height: 50.3594px;\"><strong>Server</strong></td>\n<td style=\"width: 41.611%; height: 50.3594px;\"><strong>Hostname</strong></td>\n<td style=\"width: 34.0923%; height: 50.3594px;\"><strong>IP Address</strong></td>\n</tr>\n<tr style=\"height: 50.3594px;\">\n<td style=\"width: 24.1541%; height: 50.3594px;\">DB 1</td>\n<td style=\"width: 41.611%; height: 50.3594px;\">mariadb-node1</td>\n<td style=\"width: 34.0923%; height: 50.3594px;\">10.0.1.102</td>\n</tr>\n<tr style=\"height: 50.3594px;\">\n<td style=\"width: 24.1541%; height: 50.3594px;\">DB 2</td>\n<td style=\"width: 41.611%; height: 50.3594px;\">mariadb-node2</td>\n<td style=\"width: 34.0923%; height: 50.3594px;\">10.0.1.103</td>\n</tr>\n<tr style=\"height: 50.3594px;\">\n<td style=\"width: 24.1541%; height: 50.3594px;\">DB 3</td>\n<td style=\"width: 41.611%; height: 50.3594px;\">mariadb-node3</td>\n<td style=\"width: 34.0923%; height: 50.3594px;\">10.0.1.104</td>\n</tr>\n</tbody>\n</table>\n<p>1. Linux OS level pre-config</p>\n<table style=\"border-collapse: collapse; width: 148.575%;\" border=\"1\">\n<tbody>\n<tr>\n<td style=\"width: 44.3385%;\">Without DNS</td>\n<td style=\"width: 55.5671%;\">With DNS</td>\n</tr>\n<tr>\n<td style=\"width: 44.3385%;\">\n<p>sudo vim /etc/hosts</p>\n<p>10.0.1.102 mariadb-node1.ckc.im mariadb-node1 10.0.1.103 mariadb-node2.ckc.im mariadb-node2 10.0.1.204 mariadb-node3.ckc.im mariadb-node3</p>\n</td>\n<td style=\"width: 55.5671%;\">\n<p>config A record</p>\n<p>set correct target DNS for each node</p>\n</td>\n</tr>\n</tbody>\n</table>\n<p>sudo apt update sudo apt -y install mariadb-server mariadb-client</p>\n<p> </p>\n<p>sudo mysql_secure_installation</p>\n<p> </p>\n<p>mariadb-node1</p>\n<p>sudo vim /etc/mysql/mariadb.conf.d/50-server.cnf</p>\n<p> </p>\n<p>mariadb-node2</p>\n<p>sudo vim /etc/mysql/mariadb.conf.d/50-server.cnf</p>\n<p> </p>\n<p> </p>\n<pre class=\"wp-block-code\"><code>systemctl restart mariadb</code></pre>\n<p> </p>\n<p> </p>\n<h3>Validate</h3>\n<p>mysql -u root -p</p>\n<p> </p>\n<p>show status like 'wsrep_%'; </p>\n<p>&gt; </p>\n<pre class=\"wp-block-code\"><code>wsrep_cluster_size    3</code></pre>\n<p> </p>\n<p> </p>\n<p>Reference:</p>\n<p><a href=\"https://computingforgeeks.com/install-mariadb-galera-cluster-on-ubuntu-with-proxysql/\">https://computingforgeeks.com/install-mariadb-galera-cluster-on-ubuntu-with-proxysql/</a> </p>",
-            "image": "https://ckc.github.io/media/posts/5/mariadb-galera-cluster-1024x545.png",
-            "author": {
-                "name": "Jack Chan"
-            },
-            "tags": [
-                   "MySQL",
-                   "MariaDB"
-            ],
-            "date_published": "2019-06-02T13:19:00+08:00",
-            "date_modified": "2022-06-02T13:21:11+08:00"
-        },
-        {
-            "id": "https://ckc.github.io/data-center-automation/",
-            "url": "https://ckc.github.io/data-center-automation/",
-            "title": "Data Center Automation",
-            "summary": "There two important parts for DCA: 1. Network Automate 2. Server (Metal) Automate",
-            "content_html": "<p>There two important parts for DCA:</p>\n<p>1. Network Automate</p>\n<ul>\n<li>Switch build</li>\n<li>Traffic shift away</li>\n</ul>\n<p>2. Server (Metal) Automate</p>\n<ul>\n<li>OS installation</li>\n</ul>\n<p> </p>\n<p> </p>",
-            "author": {
-                "name": "Jack Chan"
-            },
-            "tags": [
-                   "Data Center"
-            ],
-            "date_published": "2018-08-02T13:31:00+08:00",
-            "date_modified": "2022-06-02T13:32:17+08:00"
-        },
-        {
-            "id": "https://ckc.github.io/data-center-network-overview/",
-            "url": "https://ckc.github.io/data-center-network-overview/",
-            "title": "Data Center Network Overview",
-            "summary": "Border / Edge Layer DWDM (e.g. Ciena) | Router Agg-SW Access Switch (ToR)",
-            "content_html": "<h1>Border / Edge Layer</h1>\n<p>DWDM (e.g. Ciena)</p>\n<p>|</p>\n<p>Router</p>\n<h1>Aggregation Layer</h1>\n<p>Agg-SW</p>\n<h1>Access Layer</h1>\n<p>Access Switch (ToR)</p>",
-            "author": {
-                "name": "Jack Chan"
-            },
-            "tags": [
-                   "Networking",
-                   "Data Center"
-            ],
-            "date_published": "2018-07-15T12:01:00+08:00",
-            "date_modified": "2022-05-31T09:09:22+08:00"
         }
     ]
 }
