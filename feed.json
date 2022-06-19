@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://ckc.github.io/ssd-media-wearout-indicator/",
+            "url": "https://ckc.github.io/ssd-media-wearout-indicator/",
+            "title": "SSD Media Wearout Indicator ",
+            "summary": "In HDD, we check SMART value normally In SSD, there is a MWI SSD index: Media Wear-Out Indicator, usually range is 0-100; It's required to replace when &lt;= 10",
+            "content_html": "<p>In HDD, we check SMART value normally</p>\n<p>In SSD, there is a MWI SSD index:</p>\n<p>Media Wear-Out Indicator, usually range is 0-100; It's required to replace when &lt;= 10</p>",
+            "author": {
+                "name": "Jack Chan"
+            },
+            "tags": [
+            ],
+            "date_published": "2022-06-19T14:08:06+08:00",
+            "date_modified": "2022-06-19T14:08:06+08:00"
+        },
+        {
             "id": "https://ckc.github.io/netops-admin-tools/",
             "url": "https://ckc.github.io/netops-admin-tools/",
             "title": "NetOps Admin tools",
@@ -141,21 +155,6 @@
             ],
             "date_published": "2020-06-02T13:23:00+08:00",
             "date_modified": "2022-06-02T13:23:16+08:00"
-        },
-        {
-            "id": "https://ckc.github.io/aws-network-101/",
-            "url": "https://ckc.github.io/aws-network-101/",
-            "title": "AWS - Network 101",
-            "summary": "Create a VPC and subnet, and launch a public-facing instance into your subnet. Your instance will be able to communicate with the Internet, and you'll be able to access your instance from your local computer using SSH (if it's a Linux instance) or Remote Desktop&hellip;",
-            "content_html": "<p class=\"p1\">Create a VPC and subnet, and launch a public-facing instance into your subnet. Your instance will be able to communicate with the Internet, and you'll be able to access your instance from your local computer using SSH (if it's a Linux instance) or Remote Desktop</p>\n<p class=\"p2\"> </p>\n<p class=\"p1\"><a href=\"https://asmed.com/amazon-aws-getting-started-with-amazon-vpc/\">https://asmed.com/amazon-aws-getting-started-with-amazon-vpc/</a></p>\n<p class=\"p3\"> </p>\n<p class=\"p3\"> </p>\n<p class=\"p4\">Which of the following are reasons to build web applications on AWS</p>\n<p class=\"p3\"> </p>\n<p class=\"p3\"> </p>\n<p class=\"p5\"> </p>\n<p class=\"p5\"> </p>\n<p class=\"p5\"> </p>\n<p class=\"p4\"><strong>The first step towards building fault-tolerant applications on AWS is to create a</strong></p>\n<p class=\"p5\"> </p>\n<p class=\"p4\"><strong>Building fault-tolerant applications on AWS</strong></p>\n<p class=\"p1\"><a href=\"http://muratbuffalo.blogspot.com/2012/10/building-fault-tolerant-applications-on.html\">http://muratbuffalo.blogspot.com/2012/10/building-fault-tolerant-applications-on.html</a></p>",
-            "author": {
-                "name": "Jack Chan"
-            },
-            "tags": [
-                   "AWS"
-            ],
-            "date_published": "2019-06-02T13:35:00+08:00",
-            "date_modified": "2022-06-02T13:36:57+08:00"
         }
     ]
 }
