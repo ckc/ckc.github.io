@@ -1,21 +1,21 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
     <title>Jack Chan&#x27;s Blog</title>
-    <link href="https://ckc.github.io/feed.xml" rel="self" />
-    <link href="https://ckc.github.io" />
+    <link href="https://blog.ckc.im/feed.xml" rel="self" />
+    <link href="https://blog.ckc.im" />
     <updated>2022-06-19T14:08:06+08:00</updated>
     <author>
         <name>Jack Chan</name>
     </author>
-    <id>https://ckc.github.io</id>
+    <id>https://blog.ckc.im</id>
 
     <entry>
         <title>SSD Media Wearout Indicator </title>
         <author>
             <name>Jack Chan</name>
         </author>
-        <link href="https://ckc.github.io/ssd-media-wearout-indicator/"/>
-        <id>https://ckc.github.io/ssd-media-wearout-indicator/</id>
+        <link href="https://blog.ckc.im/ssd-media-wearout-indicator/"/>
+        <id>https://blog.ckc.im/ssd-media-wearout-indicator/</id>
 
         <updated>2022-06-19T14:08:06+08:00</updated>
             <summary>
@@ -36,21 +36,21 @@
         <author>
             <name>Jack Chan</name>
         </author>
-        <link href="https://ckc.github.io/netops-admin-tools/"/>
-        <id>https://ckc.github.io/netops-admin-tools/</id>
+        <link href="https://blog.ckc.im/netops-admin-tools/"/>
+        <id>https://blog.ckc.im/netops-admin-tools/</id>
             <category term="macOS"/>
             <category term="Networking"/>
 
         <updated>2022-06-15T00:10:07+08:00</updated>
             <summary>
                 <![CDATA[
-                        <img src="https://ckc.github.io/media/posts/14/WeChat0bb2155b6eb56f1e5dbb60cd336842c7.png" alt="" />
+                        <img src="https://blog.ckc.im/media/posts/14/WeChat0bb2155b6eb56f1e5dbb60cd336842c7.png" alt="" />
                     Mac: /System/Library/CoreServices/Applications Network Utility.app - Netstat - Ping - Lookup - Traceroute - Whois - Finger (not used yet) - Port Scan
                 ]]>
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://ckc.github.io/media/posts/14/WeChat0bb2155b6eb56f1e5dbb60cd336842c7.png" alt="" />
+                    <img src="https://blog.ckc.im/media/posts/14/WeChat0bb2155b6eb56f1e5dbb60cd336842c7.png" alt="" />
                 <p>Mac:</p>
 <p>/System/Library/CoreServices/Applications</p>
 <p>Network Utility.app</p>
@@ -69,8 +69,8 @@
         <author>
             <name>Jack Chan</name>
         </author>
-        <link href="https://ckc.github.io/ssd-models/"/>
-        <id>https://ckc.github.io/ssd-models/</id>
+        <link href="https://blog.ckc.im/ssd-models/"/>
+        <id>https://blog.ckc.im/ssd-models/</id>
 
         <updated>2022-06-15T00:07:41+08:00</updated>
             <summary>
@@ -107,8 +107,8 @@
         <author>
             <name>Jack Chan</name>
         </author>
-        <link href="https://ckc.github.io/ip-selection/"/>
-        <id>https://ckc.github.io/ip-selection/</id>
+        <link href="https://blog.ckc.im/ip-selection/"/>
+        <id>https://blog.ckc.im/ip-selection/</id>
 
         <updated>2022-06-07T10:01:53+08:00</updated>
             <summary>
@@ -133,8 +133,8 @@
         <author>
             <name>Jack Chan</name>
         </author>
-        <link href="https://ckc.github.io/us-visa-avoiding-travel-through-the-united-states/"/>
-        <id>https://ckc.github.io/us-visa-avoiding-travel-through-the-united-states/</id>
+        <link href="https://blog.ckc.im/us-visa-avoiding-travel-through-the-united-states/"/>
+        <id>https://blog.ckc.im/us-visa-avoiding-travel-through-the-united-states/</id>
 
         <updated>2022-06-05T10:39:57+08:00</updated>
             <summary>
@@ -154,8 +154,8 @@
         <author>
             <name>Jack Chan</name>
         </author>
-        <link href="https://ckc.github.io/open-source-router/"/>
-        <id>https://ckc.github.io/open-source-router/</id>
+        <link href="https://blog.ckc.im/open-source-router/"/>
+        <id>https://blog.ckc.im/open-source-router/</id>
             <category term="Networking"/>
 
         <updated>2022-06-04T21:57:40+08:00</updated>
@@ -244,8 +244,8 @@
         <author>
             <name>Jack Chan</name>
         </author>
-        <link href="https://ckc.github.io/macos-basic-software-for-re-image/"/>
-        <id>https://ckc.github.io/macos-basic-software-for-re-image/</id>
+        <link href="https://blog.ckc.im/macos-basic-software-for-re-image/"/>
+        <id>https://blog.ckc.im/macos-basic-software-for-re-image/</id>
             <category term="macOS"/>
 
         <updated>2022-06-02T11:54:18+08:00</updated>
@@ -289,8 +289,8 @@
         <author>
             <name>Jack Chan</name>
         </author>
-        <link href="https://ckc.github.io/hello-publii/"/>
-        <id>https://ckc.github.io/hello-publii/</id>
+        <link href="https://blog.ckc.im/hello-publii/"/>
+        <id>https://blog.ckc.im/hello-publii/</id>
 
         <updated>2022-05-15T11:28:04+08:00</updated>
             <summary>
@@ -309,8 +309,8 @@
         <author>
             <name>Jack Chan</name>
         </author>
-        <link href="https://ckc.github.io/lxc-container-directory-related/"/>
-        <id>https://ckc.github.io/lxc-container-directory-related/</id>
+        <link href="https://blog.ckc.im/lxc-container-directory-related/"/>
+        <id>https://blog.ckc.im/lxc-container-directory-related/</id>
             <category term="Container"/>
 
         <updated>2022-06-05T12:22:52+08:00</updated>
@@ -359,8 +359,8 @@
         <author>
             <name>Jack Chan</name>
         </author>
-        <link href="https://ckc.github.io/os-level-security/"/>
-        <id>https://ckc.github.io/os-level-security/</id>
+        <link href="https://blog.ckc.im/os-level-security/"/>
+        <id>https://blog.ckc.im/os-level-security/</id>
             <category term="Security"/>
 
         <updated>2022-06-02T13:23:16+08:00</updated>
