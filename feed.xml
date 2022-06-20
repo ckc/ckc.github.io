@@ -3,12 +3,39 @@
     <title>Jack Chan&#x27;s Blog</title>
     <link href="https://blog.ckc.im/feed.xml" rel="self" />
     <link href="https://blog.ckc.im" />
-    <updated>2022-06-19T14:08:06+08:00</updated>
+    <updated>2022-06-19T17:27:39+08:00</updated>
     <author>
         <name>Jack Chan</name>
     </author>
     <id>https://blog.ckc.im</id>
 
+    <entry>
+        <title>CompTIA 220-801</title>
+        <author>
+            <name>Jack Chan</name>
+        </author>
+        <link href="https://blog.ckc.im/comptia-220-801/"/>
+        <id>https://blog.ckc.im/comptia-220-801/</id>
+            <category term="CompTIA"/>
+
+        <updated>2022-06-19T17:27:39+08:00</updated>
+            <summary>
+                <![CDATA[
+                    Which of the following allows for the FARTHEST transmission distance for data? A. Bluetooth B. Single-mode fibre C. RG-6 cable D. CAT6 cable Correct Answer: B Explanation/Reference: Reference. http://www.ad-net.com.tw/index.php?id=46 A. SDRAM B. RAMBUS C. DDR D. DIMM Correct Answer: C Explanation/Reference: Reference. http://en.wikipedia.org/wiki/Multi-channel_memory_architecture#Dual-channel_architecture 
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h1 class="entry-title">Which of the following allows for the FARTHEST transmission distance for data?</h1>
+<p><strong>A. Bluetooth</strong><br><strong>B. Single-mode fibre</strong><br><strong>C. RG-6 cable</strong><br><strong>D. CAT6 cable</strong></p>
+<p><strong>Correct Answer: B</strong><br>Explanation/Reference:<br><em>Reference. <a href="http://www.ad-net.com.tw/index.php?id=46">http://www.ad-net.com.tw/index.php?id=46</a></em></p>
+<p> </p>
+<h1 class="entry-title">Which of the following types of RAM can be used in a dual channel configuration?</h1>
+<p><strong>A. SDRAM</strong><br><strong>B. RAMBUS</strong><br><strong>C. DDR</strong><br><strong>D. DIMM</strong></p>
+<p><strong>Correct Answer: C</strong><br>Explanation/Reference:<br><em>Reference. <a href="http://en.wikipedia.org/wiki/Multi-channel_memory_architecture#Dual-channel_architecture">http://en.wikipedia.org/wiki/Multi-channel_memory_architecture#Dual-channel_architecture</a> </em></p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>SSD Media Wearout Indicator </title>
         <author>
@@ -351,28 +378,6 @@
 <p> </p>
 <h1 id="mcetoc_1g4os3jo7m">Network related</h1>
 <h2 id="mcetoc_1g4osab5k13"><a href="https://linuxcontainers.org/lxd/docs/master/howto/network_create/" target="_blank" rel="noopener noreferrer">create and configure a network</a></h2>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>OS level Security</title>
-        <author>
-            <name>Jack Chan</name>
-        </author>
-        <link href="https://blog.ckc.im/os-level-security/"/>
-        <id>https://blog.ckc.im/os-level-security/</id>
-            <category term="Security"/>
-
-        <updated>2022-06-02T13:23:16+08:00</updated>
-            <summary>
-                <![CDATA[
-                    Check ports on/off e.g. Network Utilities Bundle
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>Check ports on/off</p>
-<p>e.g. <a href="https://portforward.com/software/download-instructions/network-utilities/">Network Utilities Bundle</a></p>
             ]]>
         </content>
     </entry>

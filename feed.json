@@ -10,6 +10,21 @@
     },
     "items": [
         {
+            "id": "https://blog.ckc.im/comptia-220-801/",
+            "url": "https://blog.ckc.im/comptia-220-801/",
+            "title": "CompTIA 220-801",
+            "summary": "Which of the following allows for the FARTHEST transmission distance for data? A. Bluetooth B. Single-mode fibre C. RG-6 cable D. CAT6 cable Correct Answer: B Explanation/Reference: Reference. http://www.ad-net.com.tw/index.php?id=46 A. SDRAM B. RAMBUS C. DDR D. DIMM Correct Answer: C Explanation/Reference: Reference. http://en.wikipedia.org/wiki/Multi-channel_memory_architecture#Dual-channel_architecture ",
+            "content_html": "<h1 class=\"entry-title\">Which of the following allows for the FARTHEST transmission distance for data?</h1>\n<p><strong>A. Bluetooth</strong><br><strong>B. Single-mode fibre</strong><br><strong>C. RG-6 cable</strong><br><strong>D. CAT6 cable</strong></p>\n<p><strong>Correct Answer: B</strong><br>Explanation/Reference:<br><em>Reference. <a href=\"http://www.ad-net.com.tw/index.php?id=46\">http://www.ad-net.com.tw/index.php?id=46</a></em></p>\n<p> </p>\n<h1 class=\"entry-title\">Which of the following types of RAM can be used in a dual channel configuration?</h1>\n<p><strong>A. SDRAM</strong><br><strong>B. RAMBUS</strong><br><strong>C. DDR</strong><br><strong>D. DIMM</strong></p>\n<p><strong>Correct Answer: C</strong><br>Explanation/Reference:<br><em>Reference. <a href=\"http://en.wikipedia.org/wiki/Multi-channel_memory_architecture#Dual-channel_architecture\">http://en.wikipedia.org/wiki/Multi-channel_memory_architecture#Dual-channel_architecture</a> </em></p>",
+            "author": {
+                "name": "Jack Chan"
+            },
+            "tags": [
+                   "CompTIA"
+            ],
+            "date_published": "2022-06-19T17:27:31+08:00",
+            "date_modified": "2022-06-19T17:27:39+08:00"
+        },
+        {
             "id": "https://blog.ckc.im/ssd-media-wearout-indicator/",
             "url": "https://blog.ckc.im/ssd-media-wearout-indicator/",
             "title": "SSD Media Wearout Indicator ",
@@ -140,21 +155,6 @@
             ],
             "date_published": "2021-05-25T07:38:00+08:00",
             "date_modified": "2022-06-05T12:22:52+08:00"
-        },
-        {
-            "id": "https://blog.ckc.im/os-level-security/",
-            "url": "https://blog.ckc.im/os-level-security/",
-            "title": "OS level Security",
-            "summary": "Check ports on/off e.g. Network Utilities Bundle",
-            "content_html": "<p>Check ports on/off</p>\n<p>e.g. <a href=\"https://portforward.com/software/download-instructions/network-utilities/\">Network Utilities Bundle</a></p>",
-            "author": {
-                "name": "Jack Chan"
-            },
-            "tags": [
-                   "Security"
-            ],
-            "date_published": "2020-06-02T13:23:00+08:00",
-            "date_modified": "2022-06-02T13:23:16+08:00"
         }
     ]
 }
