@@ -3,12 +3,39 @@
     <title>Jack Chan&#x27;s Blog</title>
     <link href="https://blog.ckc.im/feed.xml" rel="self" />
     <link href="https://blog.ckc.im" />
-    <updated>2022-07-16T15:34:25-04:00</updated>
+    <updated>2022-07-17T23:30:14-04:00</updated>
     <author>
         <name>Jack Chan</name>
     </author>
     <id>https://blog.ckc.im</id>
 
+    <entry>
+        <title>Linux screen recording</title>
+        <author>
+            <name>Jack Chan</name>
+        </author>
+        <link href="https://blog.ckc.im/linux-screen-recording/"/>
+        <id>https://blog.ckc.im/linux-screen-recording/</id>
+
+        <updated>2022-07-17T23:30:14-04:00</updated>
+            <summary>
+                <![CDATA[
+                    For example, on Debian/Ubuntu: sudo apt-get install ffmpeg Once installed ffmpeg, you are able to start screen recording with this simple command: ffmpeg -f x11grab -s wxga -r 25 -i :0.0 -qscale 0 recording.mpg Hit CTRL+C when you need to stop the recording (saved in recording.mpg) From https://andreafortuna.org/2019/09/20/how-to-record-screen-on-linux-from-command-line/ details
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>For example, on Debian/Ubuntu:</p>
+<pre class="wp-block-preformatted">sudo apt-get install ffmpeg</pre>
+<p>Once installed <strong>ffmpeg</strong>, you are able to start screen recording with this simple command:</p>
+<pre class="wp-block-preformatted">ffmpeg -f x11grab -s wxga -r 25 -i :0.0 -qscale 0 recording.mpg</pre>
+<p>Hit <strong>CTRL+C</strong> when you need to stop the recording (saved in <em>recording.mpg</em>)</p>
+<p> </p>
+<p> </p>
+<p>From <a href="https://andreafortuna.org/2019/09/20/how-to-record-screen-on-linux-from-command-line/">https://andreafortuna.org/2019/09/20/how-to-record-screen-on-linux-from-command-line/</a> details</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Self-Signed Cert</title>
         <author>
@@ -101,7 +128,7 @@
             <category term="Windows"/>
             <category term="Print Server"/>
 
-        <updated>2022-07-16T15:33:33-04:00</updated>
+        <updated>2022-07-17T23:29:50-04:00</updated>
             <summary>
                 <![CDATA[
                     Active Directory Make assignments to other admins to manage certificate templates in a multidomain forest. create a group in Active Directory and add that group to the security properties of the CA server in the Certificate Authority console Enterprise CAs must be domain members and&hellip;
@@ -131,6 +158,9 @@
 <li>The physical disk must use iSCSI.</li>
 </ul>
 <p> </p>
+<h4>IIS</h4>
+<p>IIS server host the corporate site, which is accessible only by company computers. You need to configure this website to use SSL. You obtain a certificate to install on the server. Into which certificate store should you import the server's certificate?</p>
+<p><strong><span style="text-decoration: underline;">Personal under Local Computer</span></strong></p>
 <h4>GPO</h4>
 <p>Group policy objects are not being applied to domain controllers because the Default Domain Controllers and Default Domain group policies corrupt.</p>
 <p>run in a command prompt to recover them</p>
@@ -400,28 +430,6 @@
 <p> </p>
 <h1 id="mcetoc_1g4os3jo7m">Network related</h1>
 <h2 id="mcetoc_1g4osab5k13"><a href="https://linuxcontainers.org/lxd/docs/master/howto/network_create/" target="_blank" rel="noopener noreferrer">create and configure a network</a></h2>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>OS level Security</title>
-        <author>
-            <name>Jack Chan</name>
-        </author>
-        <link href="https://blog.ckc.im/os-level-security/"/>
-        <id>https://blog.ckc.im/os-level-security/</id>
-            <category term="Security"/>
-
-        <updated>2022-06-02T01:23:16-04:00</updated>
-            <summary>
-                <![CDATA[
-                    Check ports on/off e.g. Network Utilities Bundle
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>Check ports on/off</p>
-<p>e.g. <a href="https://portforward.com/software/download-instructions/network-utilities/">Network Utilities Bundle</a></p>
             ]]>
         </content>
     </entry>
