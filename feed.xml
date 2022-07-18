@@ -3,12 +3,49 @@
     <title>Jack Chan&#x27;s Blog</title>
     <link href="https://blog.ckc.im/feed.xml" rel="self" />
     <link href="https://blog.ckc.im" />
-    <updated>2022-07-17T23:30:14-04:00</updated>
+    <updated>2022-07-17T23:32:24-04:00</updated>
     <author>
         <name>Jack Chan</name>
     </author>
     <id>https://blog.ckc.im</id>
 
+    <entry>
+        <title>Data Center Safety</title>
+        <author>
+            <name>Jack Chan</name>
+        </author>
+        <link href="https://blog.ckc.im/data-center-safety/"/>
+        <id>https://blog.ckc.im/data-center-safety/</id>
+
+        <updated>2022-07-17T23:32:24-04:00</updated>
+            <summary>
+                <![CDATA[
+                    Emergency Response Plan Fire Safety Plan Emergency Evacuation Procedures SOPs Method of Procedures Risk Assessments Task Risk Assessment Equipment Risk Assessment Chemical Risk Assessment Plant Risk Assessment (e.g. Loading Dock Risk Assessment) e.g. Sharp Edge Fall Hazard Heavy Object Electrical / Arc Flash Hazard PPE&hellip;
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <h2>Emergency Response Plan</h2>
+<h2>Fire Safety Plan</h2>
+<h3>Emergency Evacuation Procedures</h3>
+<h3>SOPs</h3>
+<h3>Method of Procedures</h3>
+<h1>Risk Assessments</h1>
+<p>Task Risk Assessment</p>
+<p>Equipment Risk Assessment</p>
+<p>Chemical Risk Assessment</p>
+<p>Plant Risk Assessment (e.g. Loading Dock Risk Assessment)</p>
+<p> </p>
+<p>e.g.</p>
+<p>Sharp Edge</p>
+<p>Fall Hazard</p>
+<p>Heavy Object</p>
+<p>Electrical / Arc Flash Hazard</p>
+<p>PPE not being worn</p>
+<p>Housekeeping / Tripping Hazrd</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Linux screen recording</title>
         <author>
@@ -380,56 +417,6 @@
         <content type="html">
             <![CDATA[
                 <h3 class="LC20lb MBeuO DKV0Md">WYSIWYG reduce a pain point who unfamiliar in MD</h3>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>LXC container directory related</title>
-        <author>
-            <name>Jack Chan</name>
-        </author>
-        <link href="https://blog.ckc.im/lxc-container-directory-related/"/>
-        <id>https://blog.ckc.im/lxc-container-directory-related/</id>
-            <category term="Container"/>
-
-        <updated>2022-06-05T00:22:52-04:00</updated>
-            <summary>
-                <![CDATA[
-                    Intro File system related Default: /var/cache/lxc lxc.lxcpath in /etc/lxc/lxc.conf, consult man lxc.system.conf for details. lxc-* tools accepts -P flag to specify alternate container path. lxc-create -B dir backing store has optional --dir ROOTFS flag. Ref: https://stackoverflow.com/questions/25286546/change-lxc-container-directory Network related create and configure a network
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <h1 id="mcetoc_1g4os3jo7k"></h1>
-<div class="post__toc">
-<h3>Table of Contents</h3>
-<ul>
-<li> </li>
-<li><a href="#mcetoc_1g4os3jo7l">File system related</a>
-<ul>
-<li><a href="#mcetoc_1g4os4ocmo">Default: /var/cache/lxc</a></li>
-</ul>
-</li>
-<li><a href="#mcetoc_1g4os3jo7m">Network related</a>
-<ul>
-<li><a href="#mcetoc_1g4osab5k13">create and configure a network</a></li>
-</ul>
-</li>
-</ul>
-</div>
-<h1>Intro</h1>
-<h1 id="mcetoc_1g4os3jo7l">File system related</h1>
-<h2 id="mcetoc_1g4os4ocmo">Default: /var/cache/lxc</h2>
-<ol>
-<li><code>lxc.lxcpath</code> in <code>/etc/lxc/lxc.conf</code>, consult <code>man lxc.system.conf</code> for details.</li>
-<li><code>lxc-*</code> tools accepts <code>-P</code> flag to specify alternate container path.</li>
-<li><code>lxc-create</code> <code>-B dir</code> backing store has optional <code>--dir ROOTFS</code> flag.</li>
-</ol>
-<p> </p>
-<p>Ref: <a href="https://stackoverflow.com/questions/25286546/change-lxc-container-directory">https://stackoverflow.com/questions/25286546/change-lxc-container-directory</a> </p>
-<p> </p>
-<h1 id="mcetoc_1g4os3jo7m">Network related</h1>
-<h2 id="mcetoc_1g4osab5k13"><a href="https://linuxcontainers.org/lxd/docs/master/howto/network_create/" target="_blank" rel="noopener noreferrer">create and configure a network</a></h2>
             ]]>
         </content>
     </entry>

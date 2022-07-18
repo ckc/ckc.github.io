@@ -10,6 +10,20 @@
     },
     "items": [
         {
+            "id": "https://blog.ckc.im/data-center-safety/",
+            "url": "https://blog.ckc.im/data-center-safety/",
+            "title": "Data Center Safety",
+            "summary": "Emergency Response Plan Fire Safety Plan Emergency Evacuation Procedures SOPs Method of Procedures Risk Assessments Task Risk Assessment Equipment Risk Assessment Chemical Risk Assessment Plant Risk Assessment (e.g. Loading Dock Risk Assessment) e.g. Sharp Edge Fall Hazard Heavy Object Electrical / Arc Flash Hazard PPE&hellip;",
+            "content_html": "<h2>Emergency Response Plan</h2>\n<h2>Fire Safety Plan</h2>\n<h3>Emergency Evacuation Procedures</h3>\n<h3>SOPs</h3>\n<h3>Method of Procedures</h3>\n<h1>Risk Assessments</h1>\n<p>Task Risk Assessment</p>\n<p>Equipment Risk Assessment</p>\n<p>Chemical Risk Assessment</p>\n<p>Plant Risk Assessment (e.g. Loading Dock Risk Assessment)</p>\n<p> </p>\n<p>e.g.</p>\n<p>Sharp Edge</p>\n<p>Fall Hazard</p>\n<p>Heavy Object</p>\n<p>Electrical / Arc Flash Hazard</p>\n<p>PPE not being worn</p>\n<p>Housekeeping / Tripping Hazrd</p>",
+            "author": {
+                "name": "Jack Chan"
+            },
+            "tags": [
+            ],
+            "date_published": "2022-07-17T23:32:24-04:00",
+            "date_modified": "2022-07-17T23:32:24-04:00"
+        },
+        {
             "id": "https://blog.ckc.im/linux-screen-recording/",
             "url": "https://blog.ckc.im/linux-screen-recording/",
             "title": "Linux screen recording",
@@ -143,21 +157,6 @@
             ],
             "date_published": "2022-05-14T23:28:04-04:00",
             "date_modified": "2022-05-14T23:28:04-04:00"
-        },
-        {
-            "id": "https://blog.ckc.im/lxc-container-directory-related/",
-            "url": "https://blog.ckc.im/lxc-container-directory-related/",
-            "title": "LXC container directory related",
-            "summary": "Intro File system related Default: /var/cache/lxc lxc.lxcpath in /etc/lxc/lxc.conf, consult man lxc.system.conf for details. lxc-* tools accepts -P flag to specify alternate container path. lxc-create -B dir backing store has optional --dir ROOTFS flag. Ref: https://stackoverflow.com/questions/25286546/change-lxc-container-directory Network related create and configure a network",
-            "content_html": "<h1 id=\"mcetoc_1g4os3jo7k\"></h1>\n<div class=\"post__toc\">\n<h3>Table of Contents</h3>\n<ul>\n<li> </li>\n<li><a href=\"#mcetoc_1g4os3jo7l\">File system related</a>\n<ul>\n<li><a href=\"#mcetoc_1g4os4ocmo\">Default: /var/cache/lxc</a></li>\n</ul>\n</li>\n<li><a href=\"#mcetoc_1g4os3jo7m\">Network related</a>\n<ul>\n<li><a href=\"#mcetoc_1g4osab5k13\">create and configure a network</a></li>\n</ul>\n</li>\n</ul>\n</div>\n<h1>Intro</h1>\n<h1 id=\"mcetoc_1g4os3jo7l\">File system related</h1>\n<h2 id=\"mcetoc_1g4os4ocmo\">Default: /var/cache/lxc</h2>\n<ol>\n<li><code>lxc.lxcpath</code> in <code>/etc/lxc/lxc.conf</code>, consult <code>man lxc.system.conf</code> for details.</li>\n<li><code>lxc-*</code> tools accepts <code>-P</code> flag to specify alternate container path.</li>\n<li><code>lxc-create</code> <code>-B dir</code> backing store has optional <code>--dir ROOTFS</code> flag.</li>\n</ol>\n<p> </p>\n<p>Ref: <a href=\"https://stackoverflow.com/questions/25286546/change-lxc-container-directory\">https://stackoverflow.com/questions/25286546/change-lxc-container-directory</a> </p>\n<p> </p>\n<h1 id=\"mcetoc_1g4os3jo7m\">Network related</h1>\n<h2 id=\"mcetoc_1g4osab5k13\"><a href=\"https://linuxcontainers.org/lxd/docs/master/howto/network_create/\" target=\"_blank\" rel=\"noopener noreferrer\">create and configure a network</a></h2>",
-            "author": {
-                "name": "Jack Chan"
-            },
-            "tags": [
-                   "Container"
-            ],
-            "date_published": "2021-05-24T19:38:00-04:00",
-            "date_modified": "2022-06-05T00:22:52-04:00"
         }
     ]
 }
