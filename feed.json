@@ -10,10 +10,24 @@
     },
     "items": [
         {
+            "id": "https://blog.ckc.im/test-new-method-update/",
+            "url": "https://blog.ckc.im/test-new-method-update/",
+            "title": "Test new method update",
+            "summary": "Test new method update",
+            "content_html": "<p>Test new method update</p>",
+            "author": {
+                "name": "Jack Chan"
+            },
+            "tags": [
+            ],
+            "date_published": "2024-10-26T06:23:56-04:00",
+            "date_modified": "2024-10-26T06:23:56-04:00"
+        },
+        {
             "id": "https://blog.ckc.im/fiber-types/",
             "url": "https://blog.ckc.im/fiber-types/",
             "title": "Fiber Types",
-            "content_html": "<p><img loading=\"lazy\" src=\"https://mskglobal.net/wp-content/uploads/2019/09/simplex-fiber-ile-dubleks-fiber-fark%C4%B1-fotosu.jpg\" data-is-external-image=\"true\"  alt=\"What are the Types of Fiber Optic Connectors? - MSK GLOBAL Elektronik\"></p>",
+            "content_html": "<p><img loading=\"lazy\" src=\"https://mskglobal.net/wp-content/uploads/2019/09/simplex-fiber-ile-dubleks-fiber-fark%C4%B1-fotosu.jpg\" alt=\"What are the Types of Fiber Optic Connectors? - MSK GLOBAL Elektronik\" data-is-external-image=\"true\"></p>",
             "author": {
                 "name": "Jack Chan"
             },
@@ -140,20 +154,6 @@
             ],
             "date_published": "2022-06-06T21:39:46-04:00",
             "date_modified": "2022-06-06T22:01:53-04:00"
-        },
-        {
-            "id": "https://blog.ckc.im/us-visa-avoiding-travel-through-the-united-states/",
-            "url": "https://blog.ckc.im/us-visa-avoiding-travel-through-the-united-states/",
-            "title": "US Visa (Avoiding travel through the United States)",
-            "summary": "For HK people: US required visa even transit",
-            "content_html": "<p>For HK people:</p>\n<p>US required visa even transit</p>",
-            "author": {
-                "name": "Jack Chan"
-            },
-            "tags": [
-            ],
-            "date_published": "2022-06-04T22:39:57-04:00",
-            "date_modified": "2022-06-04T22:39:57-04:00"
         }
     ]
 }

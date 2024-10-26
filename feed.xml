@@ -1,14 +1,34 @@
 <?xml version="1.0" encoding="utf-8"?>
-<feed xmlns="http://www.w3.org/2005/Atom">
+<feed xmlns="http://www.w3.org/2005/Atom" xmlns:media="http://search.yahoo.com/mrss/">
     <title>Jack Chan&#x27;s Blog</title>
     <link href="https://blog.ckc.im/feed.xml" rel="self" />
     <link href="https://blog.ckc.im" />
-    <updated>2022-06-26T00:30:42-04:00</updated>
+    <updated>2024-10-26T06:23:56-04:00</updated>
     <author>
         <name>Jack Chan</name>
     </author>
     <id>https://blog.ckc.im</id>
 
+    <entry>
+        <title>Test new method update</title>
+        <author>
+            <name>Jack Chan</name>
+        </author>
+        <link href="https://blog.ckc.im/test-new-method-update/"/>
+        <id>https://blog.ckc.im/test-new-method-update/</id>
+
+        <updated>2024-10-26T06:23:56-04:00</updated>
+            <summary>
+                <![CDATA[
+                    Test new method update
+                ]]>
+            </summary>
+        <content type="html">
+            <![CDATA[
+                <p>Test new method update</p>
+            ]]>
+        </content>
+    </entry>
     <entry>
         <title>Fiber Types</title>
         <author>
@@ -23,7 +43,7 @@
             <summary></summary>
         <content type="html">
             <![CDATA[
-                <p><img loading="lazy" src="https://mskglobal.net/wp-content/uploads/2019/09/simplex-fiber-ile-dubleks-fiber-fark%C4%B1-fotosu.jpg" data-is-external-image="true"  alt="What are the Types of Fiber Optic Connectors? - MSK GLOBAL Elektronik"></p>
+                <p><img loading="lazy" src="https://mskglobal.net/wp-content/uploads/2019/09/simplex-fiber-ile-dubleks-fiber-fark%C4%B1-fotosu.jpg" alt="What are the Types of Fiber Optic Connectors? - MSK GLOBAL Elektronik" data-is-external-image="true"></p>
             ]]>
         </content>
     </entry>
@@ -77,7 +97,7 @@
         <link href="https://blog.ckc.im/ubuntu-auto-mount-drive-on-startup/"/>
         <id>https://blog.ckc.im/ubuntu-auto-mount-drive-on-startup/</id>
 
-        <updated>2022-06-21T11:26:32-04:00</updated>
+        <updated>2022-06-21T11:26:18-04:00</updated>
             <summary>
                 <![CDATA[
                     Use the "Disks" app. Load the Disks app (In System) and select the disk with the filesystem you want to mount on startup. Then select the filesystem on that disk and click on the gears (for configuration). Select "Edit Mount Options" from the popup menu.
@@ -120,7 +140,7 @@
         <id>https://blog.ckc.im/comptia-220-801/</id>
             <category term="CompTIA"/>
 
-        <updated>2022-06-19T05:27:39-04:00</updated>
+        <updated>2022-06-19T05:27:31-04:00</updated>
             <summary>
                 <![CDATA[
                     Which of the following allows for the FARTHEST transmission distance for data? A. Bluetooth B. Single-mode fibre C. RG-6 cable D. CAT6 cable Correct Answer: B Explanation/Reference: Reference. http://www.ad-net.com.tw/index.php?id=46 A. SDRAM B. RAMBUS C. DDR D. DIMM Correct Answer: C Explanation/Reference: Reference. http://en.wikipedia.org/wiki/Multi-channel_memory_architecture#Dual-channel_architecture 
@@ -167,6 +187,7 @@
         </author>
         <link href="https://blog.ckc.im/netops-admin-tools/"/>
         <id>https://blog.ckc.im/netops-admin-tools/</id>
+        <media:content url="https://blog.ckc.im/media/posts/14/WeChat0bb2155b6eb56f1e5dbb60cd336842c7.png" medium="image" />
             <category term="macOS"/>
             <category term="Networking"/>
 
@@ -179,7 +200,7 @@
             </summary>
         <content type="html">
             <![CDATA[
-                    <img src="https://blog.ckc.im/media/posts/14/WeChat0bb2155b6eb56f1e5dbb60cd336842c7.png" alt="" />
+                    <p><img src="https://blog.ckc.im/media/posts/14/WeChat0bb2155b6eb56f1e5dbb60cd336842c7.png" class="type:primaryImage" alt="" /></p>
                 <p>Mac:</p>
 <p>/System/Library/CoreServices/Applications</p>
 <p>Network Utility.app</p>
@@ -201,7 +222,7 @@
         <link href="https://blog.ckc.im/ssd-models/"/>
         <id>https://blog.ckc.im/ssd-models/</id>
 
-        <updated>2022-06-21T14:07:40-04:00</updated>
+        <updated>2022-06-14T12:07:41-04:00</updated>
             <summary>
                 <![CDATA[
                     https://www.newegg.com/global/hk-en/samsung-sm863a-1-92tb/p/1Z4-000R-000M4 https://www.amazon.com/Samsung-PM1643-MZILT15THMLA-00007-15-36TB-Solid/dp/B085WB7YG1
@@ -247,7 +268,7 @@
         <link href="https://blog.ckc.im/ip-selection/"/>
         <id>https://blog.ckc.im/ip-selection/</id>
 
-        <updated>2022-06-06T22:01:53-04:00</updated>
+        <updated>2022-06-06T21:39:46-04:00</updated>
             <summary>
                 <![CDATA[
                     Protocol: ONVIF (For Integrate in one like ZoneMinder) PTZ Sample: RLC-423 (Refurbished) - 5MP High-Speed PTZ Camera with 4X Optical Zoom RLC-520 - 5MP Security IP Camera with Easy PoE Connection
@@ -262,27 +283,6 @@
 <p><a href="https://reolink.com/__/product/rlc-423/">RLC-423 (Refurbished) - 5MP High-Speed PTZ Camera with 4X Optical Zoom</a></p>
 <p class="reo-productName"><a href="https://reolink.com/product/rlc-520/#specifications">RLC-520 - 5MP Security IP Camera with Easy PoE Connection</a></p>
 <p> </p>
-            ]]>
-        </content>
-    </entry>
-    <entry>
-        <title>US Visa (Avoiding travel through the United States)</title>
-        <author>
-            <name>Jack Chan</name>
-        </author>
-        <link href="https://blog.ckc.im/us-visa-avoiding-travel-through-the-united-states/"/>
-        <id>https://blog.ckc.im/us-visa-avoiding-travel-through-the-united-states/</id>
-
-        <updated>2022-06-04T22:39:57-04:00</updated>
-            <summary>
-                <![CDATA[
-                    For HK people: US required visa even transit
-                ]]>
-            </summary>
-        <content type="html">
-            <![CDATA[
-                <p>For HK people:</p>
-<p>US required visa even transit</p>
             ]]>
         </content>
     </entry>
